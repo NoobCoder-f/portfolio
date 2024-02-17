@@ -1,0 +1,181 @@
+body {
+    background: rgb(11, 19, 36);
+    font-size: 100%;
+}
+
+.navbar {
+    position: fixed;
+    width: 100vw;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 100vh;
+    background-color: #f1f1f1;
+    position: fixed;
+    display: flex;
+    flex-direction: column; /* Change flex direction to column */
+}
+
+.sidebar a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.about {
+    background: rgb(11, 19, 36);
+    height: 100vh; /* Set height to fill the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 20px; /* Add padding for content */
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.text-name {
+    position: relative;
+    top: 50px;
+}
+
+.text-name h1 {
+    line-height: 0.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: rgb(192, 202, 244);
+    font-size: 3rem;
+}
+
+.text-name h2 {
+    line-height: 0.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #747ea1;
+    font-size: 3rem;
+}
+
+.text-name h6 {
+    font-family: "VT323", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: #73AD21;
+}
+
+.text-name h5 {
+    color: rgb(89, 100, 128);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.others {
+    display: flex;
+    flex-direction: column;
+}
+
+.work {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row {
+    
+    height: 50vh;
+    width: 30vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-title {
+    background-color: aqua;
+}
+
+.company-title span {
+    margin-top: 20px;
+}
+
+
+
+.skills {
+    background-color: #3f4b5b;
+}
+
+/* Card Styles */
+.card {
+    background-color: #09595D;
+    max-width: 300px;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 2rem;
+    box-shadow: 0px 1rem 1.5rem rgba(0, 0, 0, 0.5);
+}
+
+.card .banner {
+    height: 5rem; /* Set a fixed height for the banner */
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow: hidden; /* Hide any overflow from the image */
+    background-color: black;
+}
+
+.card .banner img {
+    max-width: 100%; /* Ensure the image does not exceed the width of the banner */
+    max-height: 100%; /* Ensure the image does not exceed the height of the banner */
+    object-fit: cover; /* Fit the entire image within the banner, cropping if necessary */
+}
+
+.card h2.name {
+    text-align: start;
+    padding: 0 2rem;
+    margin-top: 20px;
+    box-sizing: border-box;
+    color: rgb(192, 202, 244);
+    font-family: "Roboto", sans-serif;
+}
+
+.card .time {
+    color: #747ea1;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 0 2rem 1.2rem;
+    float:right;
+    font-style: italic;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card .role {
+    
+    padding: 0 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: #747ea1;
+
+}   
+
+.card .description {
+    padding: 0 30px 0 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: small;
+    font-style: normal;
+    font-weight: 600;
+    color: #c8caff;
+}
