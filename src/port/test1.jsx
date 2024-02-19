@@ -25,14 +25,15 @@ const Test = () => {
                         <a style={{ textDecoration: 'none', color: '#747ea1', fontFamily: 'Roboto, sans-serif' }} onClick={() => scrollToSection('about')} href='#about'>About</a>
                     </div>
                     <div style={{ padding: '10px' }}>
-                        <a style={{ textDecoration: 'none', color: '#747ea1', fontFamily: 'Roboto, sans-serif' }} onClick={() => scrollToSection('contact')} href="#contact">Contact</a>
-                    </div>
-                    <div style={{ padding: '10px' }}>
                         <a style={{ textDecoration: 'none', color: '#747ea1', fontFamily: 'Roboto, sans-serif' }} onClick={() => scrollToSection('experience')} href="#experience">Experience</a>
                     </div>
-                    <div style={{ border: '2px solid #73AD21', borderRadius: '5px', padding: '10px', marginRight: '50px' }}>
-                            <a href={resume} target='_blank'
-                            rel='noreferrer' ><button>Resume</button></a>
+                    <div style={{ padding: '10px' }}>
+                        <a style={{ textDecoration: 'none', color: '#747ea1', fontFamily: 'Roboto, sans-serif' }} onClick={() => scrollToSection('contact')} href="#contact">Contact</a>
+                    </div>
+                    
+                    <div style={{ padding: '10px', marginRight: '50px' }}>
+                            <a className='resume-button' href={resume} target='_blank'
+                            rel='noreferrer' >Resume</a>
                     
                     </div>
                 </div>
@@ -158,14 +159,20 @@ const Test = () => {
 
             </section>
 
-            <section className='contact-panel'>
+            <section id='contact' className='contact-panel'>
                 <h2>What's Next?</h2>
                 <h3>Get In Touch</h3>
                 <h4>"Open to being bombarded with exciting new challenges!<br></br> Hit me up for a chat if you dare to test the limits of my brilliance."</h4>
                 <a className="button-33" href="mailto:suraj.singh.3177@gmail.com">HIRE</a>  
 
 
+
             </section>
+            <footer className='footer'>
+                <h6>Design and Built by Suraj </h6>
+            </footer>
+
+            
         </>
     );
 
