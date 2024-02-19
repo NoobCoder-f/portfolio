@@ -1,3 +1,12 @@
+My first online portfolio using # React + Vite.
+Well, using react was not necessary but hey! I learned something.
+
+Take a look:
+[# React + Vite](https://noobcoder11.netlify.app/)
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
