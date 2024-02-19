@@ -2,7 +2,7 @@ import React from 'react';
 import './test.css';
 import accenture from '../Assets/accenture.jpg';
 import apix from '../Assets/apix.png';
-import resume from '../Assets/resume.pdf';
+import resume from '../Assets/Suraj_Singh_Dev.pdf';
 
 const Test = () => {
 
