@@ -119,7 +119,7 @@ const Test = () => {
                                         </div>
                                     </div>
                                     <div className="description">
-                                        <p>a year of hands-on expertise in crafting responsive
+                                        <p>A year of hands-on expertise in crafting responsive
                                             and visually stunning web applications. Proficient in HTML,
                                             CSS, JavaScript, and popular frameworks like React.</p>
                                     </div>
